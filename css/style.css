@@ -1,0 +1,228 @@
+
+a:link, a:visited {
+    color: #005AFF;
+}
+a:hover {
+    color: #BE0F12;
+}
+#wrapper {
+    background: url(../images/bg-wrapper.jpg) no-repeat center top;
+    color: #000000;
+    width: 100%;
+    padding: 50px 0;
+}
+#wrapperHeader {
+    background: url(../images/bg-top.png) no-repeat center 0;
+    width: 100%;
+	height: 59px;
+	padding: 49px 0 0 0;
+}
+#wrapperContent {
+    background: url(../images/bg-loop.png) center top repeat-y ;
+    width: 100%;
+}
+#wrapperFooter {
+    background: url(../images/bg-bottom.png) center bottom no-repeat;
+    width: 100%;
+	height: 40px;
+}
+#header {
+    height: 59px;
+    margin: 0 auto;
+    position: relative;
+    width: 982px;
+    z-index: 2;
+}
+#nav {
+    background: url("../images/bg1.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 59px;
+    position: relative;
+    width: 982px;
+    z-index: 3;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    background: url("../images/nav.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 39px;
+    position: relative;
+    text-indent: -9999px;
+}
+#nav li a:hover, #nav li.Hilite a {
+    height: 55px;
+    position: relative;
+    top: 3px;
+}
+#nav li.Off a, #nav li.Off a:hover {
+    cursor: default;
+    top: 0;
+}
+#nav li a.Nav01 {
+    background-position: -20px 0;
+    left: 35px;
+    top: 9px;
+    width: 214px;
+}
+#nav li a.Nav02 {
+    background-position: -235px 0;
+    left: 45px;
+    top: 9px;
+    width: 125px;
+}
+#nav li a.Nav03 {
+    background-position: -360px 0;
+    left: 151px;
+    top: 8px;
+    width: 112px;
+}
+#nav li a.Nav04 {
+    background-position: -472px 0;
+    left: 160px;
+    top: 8px;
+    width: 90px;
+}
+#nav li a.Nav05 {
+    background-position: -562px 0;
+    left: 169px;
+    top: 8px;
+    width: 90px;
+}
+#nav li a.Nav06 {
+    background-position: -653px 0;
+    left: 179px;
+    top: 8px;
+    width: 90px;
+}
+#nav li a.Nav01:hover, #nav li.Hilite a.Nav01 {
+    background-position: -20px -40px;
+}
+#nav li a.Nav02:hover, #nav li.Hilite a.Nav02 {
+    background-position: -235px -39px;
+    top: 14px;
+}
+#nav li a.Nav03:hover, #nav li.Hilite a.Nav03 {
+    background-position: -360px -39px;
+    top: 13px;
+}
+#nav li a.Nav04:hover, #nav li.Hilite a.Nav04 {
+    background-position: -472px -39px;
+    top: 13px;
+}
+#nav li a.Nav05:hover, #nav li.Hilite a.Nav05 {
+    background-position: -562px -39px;
+    top: 13px;
+}
+#nav li a.Nav06:hover, #nav li.Hilite a.Nav06 {
+    background-position: -653px -39px;
+    top: 13px;
+}
+#nav li.Off a.Nav01, #nav li.Off a.Nav01:hover {
+    background: url("../images/nav.png") no-repeat scroll 0 -55px transparent;
+    left: 0;
+    width: 185px;
+}
+#nav li.Off a.Nav02, #nav li.Off a.Nav02:hover {
+    background: url("../images/nav.png") no-repeat scroll -185px -55px transparent;
+    left: 185px;
+    width: 110px;
+}
+#nav li.Off a.Nav03, #nav li.Off a.Nav03:hover {
+    background: url("../images/nav.png") no-repeat scroll -296px -55px transparent;
+    left: 296px;
+    width: 140px;
+}
+#nav li.Off a.Nav04, #nav li.Off a.Nav04:hover {
+    background: url("../images/nav.png") no-repeat scroll -435px -55px transparent;
+    left: 435px;
+    width: 135px;
+}
+#nav li.Off a.Nav05, #nav li.Off a.Nav05:hover {
+    background: url("../images/nav.png") no-repeat scroll -568px -55px transparent;
+    left: 568px;
+    width: 130px;
+}
+#nav li.Off a.Nav06, #nav li.Off a.Nav06:hover {
+    background: url("../images/nav.png") no-repeat scroll -696px -55px transparent;
+    right: 0;
+    width: 104px;
+}
+#nav li a.logo {
+    background: none repeat scroll 0 0 transparent;
+    display: block;
+    height: 49px;
+    left: 18px;
+    top: 4px;
+    width: 66px;
+    z-index: 10;
+}
+.Content {
+	width: 982px;
+	margin: 0 auto;
+    overflow: hidden;
+}
+.Sidebar {
+    float: right;
+    overflow: hidden;
+}
+.Main {
+    float: left;
+    width: 652px;
+    height: 569px;
+    position: relative;
+    background: url(../images/content_left.png)no-repeat;
+    color: #311e18;
+    text-shadow: -1px 0px 1px rgba(248, 246, 234, 1);
+}
+
+#Thiefcontent
+{
+  position: absolute;
+  left: 95px;
+  top: 120px;
+}
+#Thiefcontent ul li{
+  font-size: 17.1px;
+  font-family: "Verdana";
+  color: rgb( 49, 30, 24 );
+  line-height: 1.561;
+  text-shadow: 0.5px 0.866px 1px rgb( 248, 246, 234 );
+}
+.centerbutton
+{
+    position: absolute;
+    left: 150px;
+    top: 45%;
+    margin: 0 auto;
+}
+#loginbutton
+{    
+    width: 240px;
+    height: 68px;
+    text-indent: -9999px;
+    display: block;
+
+    background: url(../images/buttons_labels.png) no-repeat;
+}
+#loginbutton:hover {
+    background-position: -250px 0px;
+}
+
+.BtHuongDan {
+    background: url(../images/bt-huongdan.png) no-repeat;
+    width: 240px;
+    height: 68px;
+    display: block;
+    text-indent: -9999px;
+}
+.BtHuongDan:hover {
+    background-position: -250px 0px;
+}
+
+h2.TitleMenu{background:url(../images/bgtitle-navsub.png) 0 0 no-repeat;font-size:24px;line-height:30px;color:#412601;padding:35px 0 0 0;text-align:center;width:260px;height:42px;margin:-9px 0 0 20px}
+ul#sidenavMenu{list-style-type:none;overflow:hidden;width:260px;z-index:100;margin:0 0 0 20px;padding-bottom:20px}ul#sidenavMenu li{float:left;font-size:14px;font-weight:bold;overflow:hidden;position:relative;width:100%}ul#sidenavMenu li.Off a:link,ul#sidenavMenu li.Off a:visited,ul#sidenavMenu li.Off a:hover{color:#afaa98!important;cursor:default;background:url(../images/nav-left.png) 0 0 no-repeat}ul#sidenavMenu li a:link,ul#sidenavMenu li a:visited{background:url(../images/nav-left.png) 0 0 no-repeat;color:#2f2b1b;display:block;float:left;line-height:20px;padding:8px 10px 12px 40px;text-decoration:none;width:210px}ul#sidenavMenu li.Active a:link,ul#sidenavMenu li.Active a:visited,ul#sidenavMenu li.Hilite a:link,ul#sidenavMenu li.Hilite a:visited,ul#sidenavMenu li a:hover{background-position:0 -40px;color:#FFF;text-decoration:none}ul#sidenavMenu li.Last a:link,ul#sidenavMenu li.Last a:visited{background:url(../images/nav-left-bot.png) 0 0 no-repeat}ul#sidenavMenu li.Last a:hover,ul#sidenavMenu li.Last.Active a:link,ul#sidenavMenu li.Last.Active a:visited,ul#sidenavMenu li.Last.Active a:hover,ul#sidenavMenu li.Last.Hilite a:link,ul#sidenavMenu li.Last.Hilite a:visited,ul#sidenavMenu li.Last.Hilite a:hover{color:#faffef;text-decoration:none;background-position:0 -40px;!important}ul#sidenavMenu li.Last.Off a:link,ul#sidenavMenu li.Last.Off a:visited,ul#sidenavMenu li.Last.Off a:hover{color:#afaa98;background:url(../images/nav-left-bot.png) 0 0 no-repeat;cursor:default}ul#sidenavMenu li.Last.HasChild a:link,ul#sidenavMenu li.Last.HasChild a:visited{background:url(../images/subnav-child-bot.png) 0 0 no-repeat}ul#sidenavMenu li.HasChild a:link,ul#sidenavMenu li.HasChild a:visited{background:url(../images/subnav-child.png) 0 0 no-repeat}ul#sidenavMenu li.HasChild a:hover,ul#sidenavMenu li.HasChild.Hilite a:link,ul#sidenavMenu li.HasChild.Hilite a:visited,ul#sidenavMenu li.HasChild.Active a:link,ul#sidenavMenu li.HasChild.Active a:visited{background-position:0 -40px!important}ul#sidenavMenu li ul{clear:both;display:none;overflow:hidden;width:100%;background:url(../images/menu-left-sub.gif) 0 bottom no-repeat;padding-bottom:18px}ul#sidenavMenu li ul li{background:url(../images/menu-left-sub.gif) no-repeat scroll 0 -31px transparent;line-height:16px;width:100%}ul#sidenavMenu li ul li.Top{background-position:0 0}ul#sidenavMenu li.Active ul li a:link,ul#sidenavMenu li.Active ul li a:visited{background:none!important;color:#f9e7a8!important;display:block;font-size:14px;font-weight:normal;line-height:18px;padding:6px 10px 6px 50px;width:200px}ul#sidenavMenu li.Active ul li.Top a:link,ul#sidenavMenu li.Active ul li.Top a:visited{padding:7px 10px 6px 50px}ul#sidenavMenu li.Active ul li.Active a:link,ul#sidenavMenu li.Active ul li.Active a:visited,ul#sidenavMenu li.Active ul li.Hilite a:link,ul#sidenavMenu li.Active ul li.Hilite a:visited{color:#ffcb00!important;text-decoration:none}ul#sidenavMenu li.Active ul li a:hover{color:#ffcb00!important}ul#sidenavMenu li ul li.SubOff a:link,ul#sidenavMenu li ul li.SubOff a:visited,ul#sidenavMenu li ul li.SubOff a:hover,ul#sidenavMenu li ul li.Active.SubOff a:link,ul#sidenavMenu li ul li.Active.SubOff a:visited,ul#sidenavMenu li ul li.Active.SubOff a:hover{color:#97885e!important;cursor:default;background:0}
+.clear{clear: both}
